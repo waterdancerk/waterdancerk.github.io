@@ -11,7 +11,7 @@
 }
 
 html {
-    background-color: #fff;
+    background-color: #bfbfbf;
     color: #555;
     font-family: "lato","Arial",sans-serif;
     font-size: 20px;
@@ -137,6 +137,16 @@ h2:after {
     margin-top: 10px;}
 
 /*----------*/
+/* paragraph */
+/*----------*/
+
+p{ 
+    margin:20px;
+    border:5px dotted blue;
+    padding:10px 
+}
+
+/*----------*/
 /* long-copy */
 /*----------*/
 
@@ -206,3 +216,5 @@ h2:after {
 .btn-ghost:active {
     border: 1px solid #e67e22;
     color: #fff;
+    
+    
