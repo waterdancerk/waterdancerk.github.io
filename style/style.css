@@ -11,8 +11,8 @@
 }
 
 html {
-    background-color: #bfbfbf;
-    color: #555;
+    background-color: #ffffff;
+    color: #009dff;
     font-family: "lato","Arial",sans-serif;
     font-size: 20px;
     font-weight: 300;
@@ -61,6 +61,7 @@ header {
     float: left;  
     margin-top: 20px;
 }
+/*
 
 .main-nav{
     float: right;
@@ -91,6 +92,7 @@ header {
 .main-nav li a:active{
     border-bottom: 2px solid #e67e22;
 }
+*/
 
 
 /*----------*/
@@ -216,5 +218,28 @@ p{
 .btn-ghost:active {
     border: 1px solid #e67e22;
     color: #fff;
+
+/*----------*/
+/*  Nav Bar */
+/*----------*/    
     
-    
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background-color: #006622;
+  overflow-x: hidden;
+  padding-top: 30px;
+}
+
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
