@@ -270,3 +270,8 @@ p{
 border-style:inset;
 border-width:7.5px;
 }
+
+
+img{
+    padding: 5px;
+}
