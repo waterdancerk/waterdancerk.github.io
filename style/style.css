@@ -270,3 +270,11 @@ p{
 border-style:inset;
 border-width:7.5px;
 }
+
+/*-----*/
+/* Img */
+/*-----*/
+
+img  {
+padding: 7.5px;
+}
