@@ -271,5 +271,11 @@ border-style:inset;
 border-width:7.5px;
 }
 
+/*------------------*/
+/* Image */
+/*------------------*/
 
+img{
+    padding 7.5px;
+}
 
