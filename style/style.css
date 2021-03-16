@@ -271,10 +271,15 @@ border-style:hidden;
 border-width:9px;
 }
 
-/*-----*/
-/* Img */
-/*-----*/
+/*------------------*/
+/* Image */
+/*------------------*/
 
+img{
+    padding 7.5px;
+}
+
+<<<<<<< HEAD
 img  {
 padding: 7.5px;
 }
@@ -366,3 +371,5 @@ padding: 7.5px;
 .backbutton:hover {
     background: url("images/backdb.png") no-repeat;
 }
+=======
+>>>>>>> a0edcbf3eb976d2a55266ca3b29619bbef63804a
