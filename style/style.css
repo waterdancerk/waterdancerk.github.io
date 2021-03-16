@@ -1,6 +1,6 @@
-/*----------*/
+/*--------------*/
 /* BASIC SET UP */
-/*----------*/
+/*--------------*/
 
 /* #e67e22 border colour */
 
@@ -12,16 +12,16 @@
 
 html {
     background-color: #ffffff;
-    color: #009dff;
+    color: #00A2E8;
     font-family: "lato","Arial",sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
 }
 
-/*----------*/
+/*---------------------*/
 /* REUSABLE COMPONENTS */
-/*----------*/
+/*---------------------*/
 
 .row {
     max-width: 1140px;
@@ -36,9 +36,9 @@ section {
     padding: 1%;
 }
 
-/*----------*/
+/*--------*/
 /* HEADER */
-/*----------*/
+/*--------*/
 
 header {
     background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url("img/hero.jpg");
@@ -111,7 +111,7 @@ h3{
 h1{
     margin-top: 0;
     margin-bottom: 30px;
-    color: #fff;
+    color: #00A2E8;
     font-size: 240%;
     word-spacing: 4px;
     letter-spacing: 1px;
@@ -140,9 +140,9 @@ h2:after {
     margin-top: 10px;}
 
 
-/*----------*/
+/*-----------*/
 /* paragraph */
-/*----------*/
+/*-----------*/
 
 p{ 
     margin:20px;
@@ -150,9 +150,9 @@ p{
     padding:10px 
 }
 
-/*----------*/
+/*-----------*/
 /* long-copy */
-/*----------*/
+/*-----------*/
 
 .long-copy{
     line-height: 145%;
@@ -165,9 +165,9 @@ p{
     line-height: 145%;
 }
 
-/*----------*/
+/*-------*/
 /* icons */
-/*----------*/
+/*-------*/
 
 .icon-big{
     font-size: 350%;
@@ -176,9 +176,9 @@ p{
     margin-bottom: 10px;
 }
 
-/*----------*/
+/*---------*/
 /* BUTTONS */
-/*----------*/
+/*---------*/
 
 .btn:link,
 .btn:visited {
@@ -253,12 +253,12 @@ p{
 }
 
 .sidenav a:active {
-  color: #54e3ff;
+  color: #00A2E8;
 }
     
 .main {
   margin-left: 200px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
+  font-size: 22px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
 
@@ -267,14 +267,109 @@ p{
 /*------------------*/
 
 .paragroup {
-border-style:inset;
-border-width:7.5px;
+border-style:hidden;
+border-width:9px;
 }
 
-/*-----*/
-/* Img */
-/*-----*/
+/*------------------*/
+/* Image */
+/*------------------*/
 
+img{
+    padding 7.5px;
+}
+
+<<<<<<< HEAD
 img  {
 padding: 7.5px;
 }
+
+/*----------*/
+/* Parallex */
+/*----------*/
+
+.parallax {    
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*------------------------------------------*/
+/* Container holding the image and the text */
+/*------------------------------------------*/
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Top left text */
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*------------------*/
+/* Image Hover Zoom */
+/*------------------*/
+
+
+/* [1] The container */
+.img-hover-zoom {
+  height: 300px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+
+/*-------------*/
+/* Back Button */
+/*-------------*/
+
+.backbutton {
+    background: url("images/back.png") no-repeat;
+    margin: 50px;
+}
+.backbutton:hover {
+    background: url("images/backdb.png") no-repeat;
+}
+=======
+>>>>>>> a0edcbf3eb976d2a55266ca3b29619bbef63804a
