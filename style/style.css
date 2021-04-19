@@ -279,7 +279,7 @@ img{
     padding 7.5px;
 }
 
-<<<<<<< HEAD
+HEAD
 img  {
 padding: 7.5px;
 }
@@ -348,17 +348,34 @@ padding: 7.5px;
 .img-hover-zoom {
   height: 300px; /* [1.1] Set it as per your need */
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  display:inline-block;
 }
 
 /* [2] Transition property for smooth transformation of images */
 .img-hover-zoom img {
   transition: transform .5s ease;
+  display: block;
 }
 
 /* [3] Finally, transforming the image when container gets hovered */
 .img-hover-zoom:hover img {
   transform: scale(1.5);
 }
+    
+    
+.img-hover-zoom .text {
+      position: absolute;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      left: 0px;
+      bottom: 0px;
+      margin: 0px auto;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5);
+      font-family: Quicksand;
+      color: #fff;
+      width: 100%;
+    }
 
 /*-------------*/
 /* Back Button */
@@ -371,5 +388,4 @@ padding: 7.5px;
 .backbutton:hover {
     background: url("images/backdb.png") no-repeat;
 }
-=======
->>>>>>> a0edcbf3eb976d2a55266ca3b29619bbef63804a
+
