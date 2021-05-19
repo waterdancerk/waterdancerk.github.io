@@ -1,4 +1,12 @@
-17:32:05	 From Isaac Eason : List of bike manufacturersWhat type of bike are they known for?Our rating (judgement)Other’s viewsDescription of the manufacturer (if we are quoting from other websites we need to give creditWe could collect bike photos (or use other peoples photos with permission)price rangespros and consdream bike
+17:32:05	 From Isaac Eason : List of bike manufacturers
+What type of bike are they known for?
+Our rating (judgement)
+Other’s views
+Description of the manufacturer (if we are quoting from other websites we need to give credit
+We could collect bike photos (or use other peoples photos with permission)
+price ranges
+pros and cons
+dream bike
 17:32:30	 From Kate W : Bike Trials ? Routes BOLG
 17:32:34	 From Kate W : BLOG
 17:33:12	 From Kate W : Add your own trail
@@ -8,3 +16,10 @@
 17:38:14	 From Kate W : star ratings
 17:39:32	 From Isaac Eason : bike maintanence
 17:43:28	 From Kate W : https://ko-fi.com/johnfinnemore
+
+
+Next Time:
+finish tidying logo
+apply footer across all pages
+Table Formatting
+Image Formatting
